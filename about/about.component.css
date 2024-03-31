@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    margin-top: 200px;
+}
+
+.carousel {
+    flex: 1;
+    /* Adjust styling for the carousel as needed */
+}
+
+.list {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.list ul li:hover {
+    color: blue; /* Change color on hover as needed */
+}
+
+
+/* list */
+/* Custom CSS for hover effect */
+.list-group-item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* gallary */
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  .image-container:hover img {
+    transform: scale(1.1);
+  }
+  

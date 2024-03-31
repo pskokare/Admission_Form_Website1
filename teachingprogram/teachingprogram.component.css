@@ -1,0 +1,132 @@
+.blue-div {
+    background-color: rgb(75, 118, 144);
+    height: 350px;
+    width: 100%; /* Will take full width of the parent container */
+    margin-top: 80px;
+    position: relative; /* Needed for positioning the image */
+  }
+
+  /* Media query for smaller screens */
+    .blue-div img {
+      width:80%; /* Set image width to 90% of its container on smaller screens */
+      height:150%;
+     align-items: center;
+     /* margin-left:125px; */
+     padding-left:10%;
+     opacity: 5;
+     
+    }
+  
+    .blue-div h4 {
+        position: absolute;
+        box-shadow:2px;
+        top: 95%; 
+        left:20%; 
+        transform: translate(-50%, -50%); 
+        color: rgb(23, 26, 27);
+        text-align: center;  
+        padding: 20px; 
+      }
+
+
+
+      /* Information */
+
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #516d8e;
+        border-radius: 10px;
+    }
+    
+    h2 {
+        text-align:left;
+        color: aliceblue;
+    }
+
+    h6 {
+      color: white;
+    }
+
+    h4 {
+      color: white;
+      text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        color:white;
+
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #003366;
+        border-radius: 5px;
+    }
+    
+    input[type="submit"] {
+        background-color: #003366;
+        color: #ffffff;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+      /* Media queries for responsiveness */
+      @media screen and (min-width: 768px) {
+        form {
+            width: 50%;
+        }
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #001f4d;
+    }
+    
+    .warning {
+        font-style: italic;
+    }
+
+
+    @media screen and (max-width:300px) {
+   
+  }
+
+
+
+
+/* button*/
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:10vh; /* Use full height of the viewport */
+}
+
+.custom-button {
+  padding: 10px 20px;
+  background-color: #607994;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid rgb(36, 52, 104);
+  
+}
+
+
+.custom-button:hover {
+  background-color: #1c3e60;
+}
+
+/*  */

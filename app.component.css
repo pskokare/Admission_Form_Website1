@@ -1,0 +1,45 @@
+.carousel-item { 
+    
+
+    transition: transform 1s ease-in; 
+  }
+
+
+ 
+
+  @keyframes slide-left {
+    0% {
+      transform: translateX(-20%);
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(0%);
+      opacity: 2;
+    }
+    10% {
+      transform: translateX(-10%);
+      opacity: 2;
+    }
+  }
+  
+  .slide-left-animation {
+    animation: slide-left 5s ease-out forwards;
+  }
+  
+/*  */
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  margin-top: 20px; /* Adjust top margin as needed */
+}
+
+.button-container .btn {
+  margin-bottom: 10px; /* Adjust bottom margin between buttons */
+  border-radius: 30px; /* Make buttons circular */
+}
+
+.button-container p {
+  text-align: center;
+}
